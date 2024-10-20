@@ -9,11 +9,14 @@ This backend application allows users to manage and share their daily expenses b
 ### **Features**
 
 - **User Management**: 
-  - Users can register with their email, name, and mobile number.
+  - Users can register with their name, email, password and mobile number.
+  - Users can login with existing email, password.
+  - Users can delete their id's.
+  - Users can update their name, email, password and mobile number.
   - User authentication via JWT tokens.
   
 - **Expense Management**:
-  - Users can add expenses.
+  - Users can add,update,delete expenses.
   - Expenses can be split using three methods:
     - **Equal**: Split equally among all participants.
     - **Exact**: Specify the exact amount each participant owes.
