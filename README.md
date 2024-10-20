@@ -32,6 +32,7 @@ This backend application allows users to manage and share their daily expenses b
 - **Flask-JWT-Extended**: Authentication using JWT
 - **Flask-Migrate**: Database migrations
 - **SQLite**: Database
+- **PIP**: install from reuqirements.txt
 
 ---
 
