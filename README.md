@@ -133,26 +133,27 @@ This backend application allows users to manage and share their daily expenses b
 
 ### Screenshots
 
-1. **Balance Sheet**
-   ![Balance Sheet](untitled_folder/balance_sheet.png)
+1. **User Registration**
+   ![User Registration](./screenshots/user_registration.png)
 
-2. **Expense Creation**
-   ![Expense Creation](expense_creation.png)
+2. **User Login**
+   ![User Login](./screenshots/user_login.png)
 
-3. **Overall Expenses**
-   ![Overall Expenses](expenses_overall.png)
+3. **Expense Creation**
+   ![Expense Creation](./screenshots/expense_creation.png)
 
-4. **Percentage Troubleshoot**
-   ![Percentage Troubleshoot](percentage_troubleshoot.png)
+4. **User Expenses**
+   ![User Expenses](./screenshots/user_expenses.png)
 
-5. **Test Results**
-   ![Test Results](test.png)
+5. **Overall Expenses**
+   ![Overall Expenses](./screenshots/expenses_overall.png)
 
-6. **User Expenses**
-   ![User Expenses](user_expenses.png)
+6. **Balance Sheet**
+   ![Balance Sheet](./screenshots/balance_sheet.png)
 
-7. **User Login**
-   ![User Login](user_login.png)
+7. **Percentage Troubleshoot**
+   ![Percentage Troubleshoot](./screenshots/percentage_troubleshoot.png)
 
-8. **User Registration**
-   ![User Registration](user_registration.png)
+8. **Test Results**
+   ![Test Results](./screenshots/test.png)
+
