@@ -52,6 +52,45 @@ This backend application allows users to manage and share their daily expenses b
 
 ---
 
+## MVC Architecture
+
+This project follows the **Model-View-Controller (MVC)** architectural pattern, which divides the application into three interconnected components. This separation helps in managing the application's complexity by segregating internal representations of information from how the information is presented and accepted.
+
+### 1. Model
+The **Model** represents the data and business logic of the application. It is responsible for handling the database and the associated queries.
+
+- **Location**: `app/models/`
+- **Files**:
+  - `expense.py`: Defines the schema for the Expense entity and how the expenses are stored and retrieved.
+  - `user.py`: Defines the schema for the User entity and user-related data.
+
+### 2. View
+The **View** is responsible for presenting the data to the user. Since this project is an API-based backend, the views are the API routes that return JSON data instead of rendered HTML templates.
+
+- **Location**: `app/views/`
+- **Files**:
+  - `auth_routes.py`: Contains the routes for authentication, including login and registration.
+  - `expense_routes.py`: Contains the routes for expense-related operations.
+  - `user_routes.py`: Contains the routes for user-related operations.
+  - `home_routes.py`: Contains the main application routes.
+
+### 3. Controller
+The **Controller** acts as an intermediary between the Model and View. It processes incoming requests, handles user input, interacts with the Model to retrieve or modify data, and returns the results back to the View (in this case, via JSON responses).
+
+- **Location**: `app/controllers/`
+- **Files**:
+  - `auth_controller.py`: Handles logic for user authentication and authorization.
+  - `expense_controller.py`: Handles logic for managing and manipulating expenses.
+  - `user_controller.py`: Handles logic for managing users, updating, deleting, and fetching user-related data.
+
+### Folder Structure
+. ├── app/ │ ├── controllers/ # Controllers │ │ ├── auth_controller.py │ │ ├── expense_controller.py │ │ └── user_controller.py │ ├── models/ # Models │ │ ├── expense.py │ │ └── user.py │ ├── views/ # Views (API Routes) │ │ ├── auth_routes.py │ │ ├── expense_routes.py │ │ ├── user_routes.py │ │ └── home_routes.py │ └── ... ├── migrations/ ├── tests/ # Test cases ├── config.py ├── run.py # Entry point for running the app └── README.md
+
+
+By following the **MVC** architecture, the code is organized in a way that maintains separation of concerns and improves scalability, making it easier to maintain and develop new features.
+
+---
+
 ### **API Endpoints**
 
 #### **User Endpoints**:
