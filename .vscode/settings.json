@@ -1,0 +1,6 @@
+{
+  "python.analysis.extraPaths": [
+    "./app/views",
+    "./app"
+  ]
+}
