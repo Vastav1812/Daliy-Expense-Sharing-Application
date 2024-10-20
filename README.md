@@ -134,7 +134,7 @@ This backend application allows users to manage and share their daily expenses b
 ### Screenshots
 
 1. **Balance Sheet**
-   ![Balance Sheet](untitled folder/balance_sheet.png)
+   ![Balance Sheet](untitled_folder/balance_sheet.png)
 
 2. **Expense Creation**
    ![Expense Creation](expense_creation.png)
