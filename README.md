@@ -129,3 +129,29 @@ This backend application allows users to manage and share their daily expenses b
    ```bash
    git clone https://github.com/your-username/daily-expenses-app.git
    cd daily-expenses-app
+
+### Screenshots
+
+1. **Balance Sheet**
+   ![Balance Sheet](balance_sheet.png)
+
+2. **Expense Creation**
+   ![Expense Creation](expense_creation.png)
+
+3. **Overall Expenses**
+   ![Overall Expenses](expenses_overall.png)
+
+4. **Percentage Troubleshoot**
+   ![Percentage Troubleshoot](percentage_troubleshoot.png)
+
+5. **Test Results**
+   ![Test Results](test.png)
+
+6. **User Expenses**
+   ![User Expenses](user_expenses.png)
+
+7. **User Login**
+   ![User Login](user_login.png)
+
+8. **User Registration**
+   ![User Registration](user_registration.png)
